@@ -13,15 +13,21 @@ function initNavToggle() {
 
 /* ---------- Submenú "Tours" por ciudad ---------- */
 function initNavDropdown() {
-  const dropdown = document.querySelector(".nav-dropdown");
-  if (!dropdown) return;
-  const btn = dropdown.querySelector(".nav-dropdown-toggle");
-  btn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    dropdown.classList.toggle("open");
+  const dropdowns = document.querySelectorAll(".nav-dropdown");
+  if (!dropdowns.length) return;
+  dropdowns.forEach((dropdown) => {
+    const btn = dropdown.querySelector(".nav-dropdown-toggle");
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const wasOpen = dropdown.classList.contains("open");
+      dropdowns.forEach((d) => d.classList.remove("open"));
+      if (!wasOpen) dropdown.classList.add("open");
+    });
   });
   document.addEventListener("click", (e) => {
-    if (!dropdown.contains(e.target)) dropdown.classList.remove("open");
+    dropdowns.forEach((dropdown) => {
+      if (!dropdown.contains(e.target)) dropdown.classList.remove("open");
+    });
   });
 }
 

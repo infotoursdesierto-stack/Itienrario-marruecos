@@ -42,7 +42,7 @@ Todo lo siguiente es **placeholder** y debe sustituirse por información real:
 - **Fotos**: se usan imágenes de `picsum.photos` como marcador visual. Sustitúyelas
   por fotos reales de tus tours (súbelas a una carpeta `img/` y actualiza los `src`).
 - **Datos de contacto**: teléfono, email, dirección y el enlace de WhatsApp
-  (`https://wa.me/212600000000`) aparecen repetidos en el header, footer y
+  (`https://wa.me/212620628083`) aparecen repetidos en el header, footer y
   botón flotante de todas las páginas — búscalos y actualízalos.
 - **Formularios**: el formulario de contacto y el de reserva son solo demo
   (no envían datos a ningún sitio). Conéctalos a un servicio como Formspree,
@@ -50,6 +50,19 @@ Todo lo siguiente es **placeholder** y debe sustituirse por información real:
 - **Mapa**: el iframe de Google Maps en `contact.html` usa una búsqueda genérica
   de "Marrakech, Morocco" — reemplázalo por la ubicación exacta de tu oficina.
 - **Redes sociales**: los iconos del footer son enlaces `#` de ejemplo.
+
+## SEO
+
+Cada página tiene `<title>`, meta description, palabras clave y etiquetas
+Open Graph/Twitter orientadas a búsquedas reales en español ("tours a
+marruecos", "tour marrakech merzouga", "excursion desierto sahara", etc.) y
+a que el enlace se vea bien al compartirlo por WhatsApp o redes sociales.
+
+Pendiente para cuando tengas el dominio final:
+- Añadir `<link rel="canonical">` con la URL real en cada página.
+- Generar un `sitemap.xml` con la URL de cada página y enlazarlo desde
+  `robots.txt` (ya incluido, con la línea `Sitemap:` comentada).
+- Dar de alta el sitio en Google Search Console.
 
 ## Personalización de diseño
 

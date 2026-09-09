@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Una vez publiques el sitio en tu dominio final, añade aquí la línea del sitemap:
+# Sitemap: https://tu-dominio.com/sitemap.xml

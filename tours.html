@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tours por Marruecos | Marruecos Auténtico</title>
+<meta name="description" content="9 tours únicos por Marruecos: Sahara, ciudades imperiales, Chefchaouen, Atlas y costa. Filtra por categoría y precio, y reserva por WhatsApp o email.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 48 48%27%3E%3Ccircle cx=%2724%27 cy=%2724%27 r=%2722%27 fill=%27%230f8b8d%27/%3E%3Cpath d=%27M32 16 22 22l-4 10 10-6Z%27 fill=%27%23d97a34%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a data-contact="email"><span class="topbar-icon">✉</span> <span data-contact="email-display">correo</span></a>
+      <a data-contact="whatsapp" target="_blank" rel="noopener"><span class="topbar-icon">💬</span> WhatsApp: <span data-contact="whatsapp-display">número</span></a>
+    </div>
+    <div class="topbar-right">
+      <span>🇪🇸 Español</span>
+      <span>Tours privados y guías de habla hispana</span>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 48 48" fill="none" stroke="#0f8b8d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="24" cy="24" r="20"/>
+        <path d="M32 16 22 22l-4 10 10-6Z" fill="#d97a34" stroke="#d97a34"/>
+      </svg>
+      Marruecos <span class="logo-tag">Auténtico</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="tours.html" class="active">Tours</a>
+      <a href="sobre-nosotros.html">Sobre Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <a href="contacto.html" class="btn btn-teal">Reservar Ahora</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Catálogo completo</span>
+    <h1>Nuestros Tours por Marruecos</h1>
+    <p class="breadcrumb"><a href="index.html">Inicio</a> / Tours</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="filter-bar">
+    <div class="filter-pills">
+      <button class="pill active" data-filter-category="all">Todos</button>
+      <button class="pill" data-filter-category="desierto">Desierto</button>
+      <button class="pill" data-filter-category="imperial">Ciudades Imperiales</button>
+      <button class="pill" data-filter-category="montana">Montaña</button>
+      <button class="pill" data-filter-category="costa">Costa</button>
+      <button class="pill" data-filter-category="multi">Gran Tour</button>
+    </div>
+    <div class="filter-side">
+      <input type="text" id="filter-search" class="filter-search" placeholder="Buscar tour…">
+      <div class="filter-price">
+        <label for="filter-price">Precio máx.</label>
+        <input type="range" id="filter-price" min="30" max="1000" step="10" value="1000">
+        <span id="filter-price-value">1000€</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="tours-grid" id="tours-grid"><!-- Tours renderizados por js/main.js --></div>
+    <div class="results-empty" id="results-empty">
+      <h3>No hay tours que coincidan con tu búsqueda</h3>
+      <p>Prueba a ampliar el precio máximo o cambiar la categoría.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>¿No encuentras el tour perfecto?</h2>
+        <p>Diseñamos itinerarios 100% a medida según tus fechas, presupuesto e intereses.</p>
+      </div>
+      <div class="hero-cta">
+        <a data-contact="whatsapp" target="_blank" rel="noopener" class="btn btn-primary">Diseñar mi Tour por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <svg class="logo-mark" viewBox="0 0 48 48" fill="none" stroke="#ffffff" stroke-width="2.4"><circle cx="24" cy="24" r="20"/><path d="M32 16 22 22l-4 10 10-6Z" fill="#d97a34" stroke="#d97a34"/></svg>
+          Marruecos Auténtico
+        </div>
+        <p>Agencia especializada en tours privados por Marruecos para viajeros de habla hispana.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V8c0-1 .5-2 2-2h2V2h-3c-3 0-5 2-5 5v3H6v4h3v8Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2"/></svg></a>
+          <a data-contact="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Destinos</h4>
+        <ul>
+          <li><a href="tours.html?categoria=desierto">Sahara</a></li>
+          <li><a href="tours.html?categoria=imperial">Ciudades Imperiales</a></li>
+          <li><a href="tours.html?categoria=montana">Atlas y Montaña</a></li>
+          <li><a href="tours.html?categoria=costa">Essaouira</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-contact">
+          <li>✉ <span data-contact="email-display">correo</span></li>
+          <li>💬 <span data-contact="whatsapp-display">WhatsApp</span></li>
+          <li>📍 Marrakech, Marruecos</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Marruecos Auténtico. Todos los derechos reservados.</span>
+      <span>Sitio construido con cariño para viajeros de habla hispana.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Volver arriba"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script src="js/tours-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

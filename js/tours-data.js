@@ -51,7 +51,7 @@ const TOURS = [
     reviews: 112,
     badge: "Express",
     excerpt: "La forma más rápida de vivir el Sahara desde Marrakech: puerto de Tizi n'Tichka, Ait Benhaddou, camello al atardecer y una noche de campamento de lujo en Erg Chebbi.",
-    image: "https://github.com/user-attachments/assets/53e02f00-087b-4202-9d3e-f3978116458c",
+    image: "https://github.com/user-attachments/assets/b58d13f8-80a1-4871-9e82-80abc459d5ce",
     category: "Marrakech",
     url: "tours/2-dias-marrakech-merzouga-ida-vuelta.html",
   },

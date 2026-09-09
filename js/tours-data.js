@@ -111,7 +111,7 @@ const TOURS = [
     reviews: 47,
     badge: "Ciudad Azul",
     excerpt: "De las dunas de Erg Chebbi a la medina de Fez y las calles azules de Chefchaouen: el mejor resumen de Marruecos en 5 días.",
-    image: "https://github.com/user-attachments/assets/d7a97718-1325-4417-8eee-b988228dc708",
+    image: "https://github.com/user-attachments/assets/b6c01b75-a72e-4abb-ae70-fea3f08938ac",
     category: "Marrakech",
     url: "tours/5-dias-marrakech-chefchaouen.html",
   },

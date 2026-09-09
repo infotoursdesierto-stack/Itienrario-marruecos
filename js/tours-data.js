@@ -66,7 +66,7 @@ const TOURS = [
     reviews: 134,
     badge: "Ida y vuelta",
     excerpt: "Ida y vuelta desde Marrakech: kasbahs del sur, gargantas del Dadès y una noche inolvidable en el campamento de Erg Chebbi.",
-    image: "https://github.com/user-attachments/assets/85eebedf-6dc9-495e-8297-78c3bbaed4c7",
+    image: "https://github.com/user-attachments/assets/b58d13f8-80a1-4871-9e82-80abc459d5ce",
     category: "Marrakech",
     url: "tours/3-dias-marrakech-merzouga-ida-vuelta.html",
   },

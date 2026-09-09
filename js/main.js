@@ -11,6 +11,20 @@ function initNavToggle() {
   toggle.addEventListener("click", () => nav.classList.toggle("open"));
 }
 
+/* ---------- Submenú "Tours" por ciudad ---------- */
+function initNavDropdown() {
+  const dropdown = document.querySelector(".nav-dropdown");
+  if (!dropdown) return;
+  const btn = dropdown.querySelector(".nav-dropdown-toggle");
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle("open");
+  });
+  document.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target)) dropdown.classList.remove("open");
+  });
+}
+
 /* ---------- Tarjeta de tour (HTML compartido entre home y listado) ---------- */
 function renderStars(rating) {
   const full = Math.round(rating);
@@ -65,6 +79,11 @@ function initTourListing() {
   const grid = document.getElementById("tour-grid");
   if (!grid) return;
 
+  // Si la página fija una ciudad de salida (páginas tours-*.html), solo se
+  // trabaja con ese subconjunto de tours.
+  const category = grid.dataset.category || null;
+  const baseTours = category ? TOURS.filter((t) => t.category === category) : TOURS;
+
   const durationSelect = document.getElementById("filter-duration");
   const routeSelect = document.getElementById("filter-route");
   const priceRange = document.getElementById("filter-price");
@@ -73,7 +92,7 @@ function initTourListing() {
 
   // Rellena el filtro de rutas dinámicamente a partir de los datos
   if (routeSelect) {
-    const routes = [...new Set(TOURS.map((t) => t.route))];
+    const routes = [...new Set(baseTours.map((t) => t.route))];
     routes.forEach((route) => {
       const opt = document.createElement("option");
       opt.value = route;
@@ -83,7 +102,7 @@ function initTourListing() {
   }
 
   function applyFilters() {
-    let filtered = TOURS.slice();
+    let filtered = baseTours.slice();
 
     if (durationSelect && durationSelect.value !== "all") {
       const max = parseInt(durationSelect.value, 10);
@@ -176,6 +195,7 @@ function initContactForm() {
 
 document.addEventListener("DOMContentLoaded", () => {
   initNavToggle();
+  initNavDropdown();
   initHeroSearch();
   initFeaturedTours();
   initTourListing();

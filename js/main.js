@@ -21,7 +21,7 @@ function tourCardHTML(tour) {
   return `
     <article class="tour-card" data-days="${tour.days}" data-price="${tour.price}" data-route="${tour.route}">
       <div class="tour-media">
-        <img src="${tour.image}" alt="${tour.title}" loading="lazy">
+        <img src="${tour.image}" alt="${tour.title} - tour desierto Sahara Marruecos" loading="lazy">
         ${tour.badge ? `<span class="tour-badge">${tour.badge}</span>` : ""}
         <span class="tour-price-tag">Desde ${formatPrice(tour)} <small>/pers.</small></span>
       </div>

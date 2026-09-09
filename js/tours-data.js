@@ -21,7 +21,7 @@ const TOURS = [
     reviews: 112,
     badge: "Clásico",
     excerpt: "Cruza el Alto Atlas, Ait Benhaddou y las gargantas de Todra camino al Sahara, con noche de campamento en Merzouga antes de llegar a Fez.",
-    image: "https://picsum.photos/seed/3-dias-marrakech-fez-desierto/640/480",
+    image: "https://github.com/user-attachments/assets/3f94634e-33ab-4bbc-8c33-45e4ccf59e93",
     url: "tours/3-dias-marrakech-fez-desierto.html",
   },
   {
@@ -35,7 +35,7 @@ const TOURS = [
     reviews: 87,
     badge: "Recomendado",
     excerpt: "La misma ruta clásica de Marrakech a Fez, con un día extra de relax y exploración en las dunas de Merzouga.",
-    image: "https://picsum.photos/seed/4-dias-marrakech-fez-desierto/640/480",
+    image: "https://github.com/user-attachments/assets/7a334b34-115f-4a07-84fd-705b3f685a12",
     url: "tours/4-dias-marrakech-fez-desierto.html",
   },
   {
@@ -49,7 +49,7 @@ const TOURS = [
     reviews: 134,
     badge: "Ida y vuelta",
     excerpt: "Ida y vuelta desde Marrakech: kasbahs del sur, gargantas del Dadès y una noche inolvidable en el campamento de Erg Chebbi.",
-    image: "https://picsum.photos/seed/3-dias-marrakech-merzouga-ida-vuelta/640/480",
+    image: "https://github.com/user-attachments/assets/5b038a91-0031-466b-b9e9-5e7a3280b7ea",
     url: "tours/3-dias-marrakech-merzouga-ida-vuelta.html",
   },
   {
@@ -63,7 +63,7 @@ const TOURS = [
     reviews: 76,
     badge: "Ida y vuelta",
     excerpt: "Una jornada extra para explorar el Valle del Draa y la kasbah de Telouet en tu ruta de ida y vuelta al desierto desde Marrakech.",
-    image: "https://picsum.photos/seed/4-dias-marrakech-merzouga-ida-vuelta/640/480",
+    image: "https://github.com/user-attachments/assets/53e02f00-087b-4202-9d3e-f3978116458c",
     url: "tours/4-dias-marrakech-merzouga-ida-vuelta.html",
   },
   {
@@ -77,7 +77,7 @@ const TOURS = [
     reviews: 58,
     badge: "Más completo",
     excerpt: "Kasbah de Telouet, el Valle de las Rosas y dos noches en el desierto en un recorrido pausado de Marrakech a Fez.",
-    image: "https://picsum.photos/seed/5-dias-marrakech-fez/640/480",
+    image: "https://github.com/user-attachments/assets/22c7dcee-f3cf-4be9-a380-eb3348c15d06",
     url: "tours/5-dias-marrakech-fez.html",
   },
   {
@@ -91,7 +91,7 @@ const TOURS = [
     reviews: 101,
     badge: "Clásico",
     excerpt: "La ruta clásica en sentido inverso: de Fez al Sahara y de vuelta a Marrakech por las kasbahs del sur.",
-    image: "https://picsum.photos/seed/3-dias-fez-marrakech-desierto/640/480",
+    image: "https://github.com/user-attachments/assets/4c15d663-974f-44a8-9af1-c10d0dfc0e58",
     url: "tours/3-dias-fez-marrakech-desierto.html",
   },
   {
@@ -105,7 +105,7 @@ const TOURS = [
     reviews: 69,
     badge: "Recomendado",
     excerpt: "Un día extra para conocer Khamlia y a familias nómadas en tu viaje de Fez a Marrakech por el desierto.",
-    image: "https://picsum.photos/seed/4-dias-fez-marrakech-desierto/640/480",
+    image: "https://github.com/user-attachments/assets/4160f28e-b9e4-4db5-97a1-9aebad504706",
     url: "tours/4-dias-fez-marrakech-desierto.html",
   },
   {
@@ -119,7 +119,7 @@ const TOURS = [
     reviews: 44,
     badge: "Recomendado",
     excerpt: "Mercado de Rissani, música gnawa en Khamlia y la kasbah de Telouet en cinco días de Fez a Marrakech.",
-    image: "https://picsum.photos/seed/5-dias-fez-marrakech/640/480",
+    image: "https://github.com/user-attachments/assets/e7a7a937-997b-4028-834d-57841b7cdf52",
     url: "tours/5-dias-fez-marrakech.html",
   },
   {
@@ -133,7 +133,7 @@ const TOURS = [
     reviews: 158,
     badge: "Express",
     excerpt: "La forma más rápida de vivir el Sahara: una noche de campamento entre Fez y el desierto de Merzouga.",
-    image: "https://picsum.photos/seed/2-dias-fez-merzouga-express/640/480",
+    image: "https://github.com/user-attachments/assets/08ac7531-19b5-4cd7-b019-8ad4e91864e9",
     url: "tours/2-dias-fez-merzouga-express.html",
   },
   {
@@ -147,7 +147,7 @@ const TOURS = [
     reviews: 121,
     badge: "Express",
     excerpt: "Cruza el Alto Atlas y el desierto de Merzouga en solo dos días de Marrakech a Fez.",
-    image: "https://picsum.photos/seed/2-dias-marrakech-fez-express/640/480",
+    image: "https://github.com/user-attachments/assets/d7a97718-1325-4417-8eee-b988228dc708",
     url: "tours/2-dias-marrakech-fez-express.html",
   },
   {
@@ -161,7 +161,7 @@ const TOURS = [
     reviews: 39,
     badge: "Ruta norte",
     excerpt: "Chefchaouen, Volubilis y Fez antes de cruzar el desierto rumbo a Marrakech, partiendo desde Tánger.",
-    image: "https://picsum.photos/seed/5-dias-tanger-marrakech/640/480",
+    image: "https://github.com/user-attachments/assets/e1142743-5a74-4608-8fb0-cdcd65d8abe6",
     url: "tours/5-dias-tanger-marrakech.html",
   },
   {
@@ -175,7 +175,7 @@ const TOURS = [
     reviews: 27,
     badge: "Ruta norte",
     excerpt: "La ruta norte-sur completa con un día extra en Fez y sus zocos, desde Tánger hasta Marrakech.",
-    image: "https://picsum.photos/seed/6-dias-tanger-marrakech/640/480",
+    image: "https://github.com/user-attachments/assets/85eebedf-6dc9-495e-8297-78c3bbaed4c7",
     url: "tours/6-dias-tanger-marrakech.html",
   },
   {
@@ -189,7 +189,7 @@ const TOURS = [
     reviews: 63,
     badge: "Gran Tour",
     excerpt: "Nuestro gran tour insignia: Chefchaouen, Fez, el Sahara y las kasbahs del sur en una sola semana.",
-    image: "https://picsum.photos/seed/7-dias-gran-tour-marruecos/640/480",
+    image: "https://github.com/user-attachments/assets/6ef410c9-a94c-490c-9866-2a34e55670d1",
     url: "tours/7-dias-gran-tour-marruecos.html",
   },
   {
@@ -203,7 +203,7 @@ const TOURS = [
     reviews: 31,
     badge: "Gran Tour",
     excerpt: "Rabat, Chefchaouen, Fez, el desierto y Marrakech: una semana y media para verlo prácticamente todo.",
-    image: "https://picsum.photos/seed/8-dias-itinerario-marruecos/640/480",
+    image: "https://github.com/user-attachments/assets/3f94634e-33ab-4bbc-8c33-45e4ccf59e93",
     url: "tours/8-dias-itinerario-marruecos.html",
   },
   {
@@ -217,7 +217,7 @@ const TOURS = [
     reviews: 22,
     badge: "Gran Tour",
     excerpt: "Diez días con tiempo de sobra para el desierto, las kasbahs y una escapada final a Essaouira.",
-    image: "https://picsum.photos/seed/10-dias-itinerario-marruecos/640/480",
+    image: "https://github.com/user-attachments/assets/7a334b34-115f-4a07-84fd-705b3f685a12",
     url: "tours/10-dias-itinerario-marruecos.html",
   },
   {
@@ -231,7 +231,7 @@ const TOURS = [
     reviews: 18,
     badge: "Completo",
     excerpt: "Doce días que añaden Tánger y una playa en Essaouira a nuestro recorrido más completo por Marruecos.",
-    image: "https://picsum.photos/seed/12-dias-tour-completo-marruecos/640/480",
+    image: "https://github.com/user-attachments/assets/5b038a91-0031-466b-b9e9-5e7a3280b7ea",
     url: "tours/12-dias-tour-completo-marruecos.html",
   },
   {
@@ -245,7 +245,7 @@ const TOURS = [
     reviews: 14,
     badge: "Circuito completo",
     excerpt: "Nuestro circuito más largo: costa, montaña, desierto y ciudades imperiales en dos semanas, con Taroudant y Essaouira incluidas.",
-    image: "https://picsum.photos/seed/14-dias-gran-circuito-marruecos/640/480",
+    image: "https://github.com/user-attachments/assets/53e02f00-087b-4202-9d3e-f3978116458c",
     url: "tours/14-dias-gran-circuito-marruecos.html",
   },
   {
@@ -259,7 +259,7 @@ const TOURS = [
     reviews: 33,
     badge: "Desde Ouarzazate",
     excerpt: "Ideal si llegas a Ouarzazate: oasis de Skoura, Valle de las Rosas y una noche en el Sahara antes de volver.",
-    image: "https://picsum.photos/seed/4-dias-ouarzazate-merzouga/640/480",
+    image: "https://github.com/user-attachments/assets/22c7dcee-f3cf-4be9-a380-eb3348c15d06",
     url: "tours/4-dias-ouarzazate-merzouga.html",
   },
   {
@@ -273,7 +273,7 @@ const TOURS = [
     reviews: 21,
     badge: "Desde Errachidia",
     excerpt: "Perfecto si aterrizas en Errachidia: te recogemos y en tres días te dejamos en Fez pasando por el Sahara.",
-    image: "https://picsum.photos/seed/3-dias-errachidia-fez/640/480",
+    image: "https://github.com/user-attachments/assets/4c15d663-974f-44a8-9af1-c10d0dfc0e58",
     url: "tours/3-dias-errachidia-fez.html",
   },
   {

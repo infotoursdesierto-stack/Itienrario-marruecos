@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itinerario Marruecos | Tours y Excursiones al Desierto del Sahara</title>
+<meta name="description" content="Tours privados y compartidos por Marruecos: Marrakech, Fez, el desierto del Sahara y las ciudades imperiales. Reserva tu itinerario a medida.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <span>📞 +212 600 000 000</span>
+      <span>✉️ info@itinerariomarruecos.com</span>
+    </div>
+    <div class="topbar-links">
+      <a href="contact.html">Reserva ahora</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">🐪 Itinerario<span>Marruecos</span></a>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">Sobre Nosotros</a>
+      <a href="contact.html">Contacto</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Reservar</a>
+    <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <span class="eyebrow">Marruecos auténtico</span>
+    <h1>Vive el desierto, las ciudades imperiales y la costa de Marruecos</h1>
+    <p>Tours privados y compartidos desde Marrakech, Fez y Casablanca. Guías locales, vehículos 4x4 y campamentos bereberes bajo las estrellas.</p>
+
+    <form class="search-card" id="hero-search-form">
+      <div class="search-grid">
+        <div class="field">
+          <label for="hero-route">Destino / Ruta</label>
+          <select id="hero-route">
+            <option value="all">Todas las rutas</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hero-duration">Duración</label>
+          <select id="hero-duration">
+            <option value="all">Cualquier duración</option>
+            <option value="2">Hasta 2 días</option>
+            <option value="4">Hasta 4 días</option>
+            <option value="7">Hasta 7 días</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hero-price">Precio máximo <span class="range-value" id="hero-price-value">500€</span></label>
+          <input type="range" id="hero-price" min="40" max="500" step="10" value="500"
+            oninput="document.getElementById('hero-price-value').textContent = this.value + '€'">
+        </div>
+        <div class="field">
+          <label>&nbsp;</label>
+          <select disabled style="opacity:.5">
+            <option>2 viajeros</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar tours</button>
+      </div>
+    </form>
+
+    <div class="hero-stats">
+      <div><strong>12+</strong><span>Años de experiencia</span></div>
+      <div><strong>5.000+</strong><span>Viajeros felices</span></div>
+      <div><strong>25+</strong><span>Itinerarios</span></div>
+      <div><strong>4.9★</strong><span>Valoración media</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Tours destacados</span>
+      <h2>Nuestros itinerarios más reservados</h2>
+      <p>Desde escapadas de un día hasta el gran tour de Marruecos: elige la aventura que mejor se adapta a tu tiempo y presupuesto.</p>
+    </div>
+    <div class="tour-grid" id="featured-tours"></div>
+    <div class="text-center mt-40">
+      <a href="tours.html" class="btn btn-dark-outline">Ver todos los tours</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sand">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Por qué viajar con nosotros</span>
+      <h2>Tu aventura, sin complicaciones</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🧭</div>
+        <h3>Guías locales expertos</h3>
+        <p>Conductores y guías bereberes que conocen cada ruta, cada kasbah y cada rincón del desierto.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚙</div>
+        <h3>Vehículos 4x4 cómodos</h3>
+        <p>Transporte privado con aire acondicionado, ideal para las pistas del Atlas y del Sahara.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏕️</div>
+        <h3>Campamentos de lujo</h3>
+        <p>Noches en jaimas bereberes con cena tradicional, música en vivo y cielos estrellados.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>Atención 24/7</h3>
+        <p>Soporte por WhatsApp antes, durante y después de tu viaje. Siempre disponibles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Explora</span>
+      <h2>Destinos imprescindibles</h2>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card">
+        <img src="https://picsum.photos/seed/marrakech-dest/400/540" alt="Marrakech">
+        <div class="dest-label"><h4>Marrakech</h4><span>La ciudad roja</span></div>
+      </div>
+      <div class="dest-card">
+        <img src="https://picsum.photos/seed/sahara-dest/400/540" alt="Desierto del Sahara">
+        <div class="dest-label"><h4>Desierto del Sahara</h4><span>Dunas de Merzouga</span></div>
+      </div>
+      <div class="dest-card">
+        <img src="https://picsum.photos/seed/fes-dest/400/540" alt="Fez">
+        <div class="dest-label"><h4>Fez</h4><span>Ciudad imperial</span></div>
+      </div>
+      <div class="dest-card">
+        <img src="https://picsum.photos/seed/chefchaouen-dest/400/540" alt="Chefchaouen">
+        <div class="dest-label"><h4>Chefchaouen</h4><span>La ciudad azul</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sand">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Opiniones</span>
+      <h2>Lo que dicen nuestros viajeros</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"El tour de 3 días al desierto superó todas nuestras expectativas. El campamento y la cena bereber fueron mágicos."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">L</div>
+          <div><strong>Laura Gómez</strong><span>España</span></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"Nuestro guía conocía cada rincón de las montañas del Atlas. Un viaje muy bien organizado de principio a fin."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">M</div>
+          <div><strong>Marco Rossi</strong><span>Italia</span></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"Reservamos el itinerario de 7 días y no cambiaríamos nada. Recomendado al 100% para ver todo Marruecos."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">S</div>
+          <div><strong>Sophie Martin</strong><span>Francia</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h3>¿Listo para tu aventura en Marruecos?</h3>
+        <p>Cuéntanos tus fechas y te preparamos un itinerario a medida en menos de 24 horas.</p>
+      </div>
+      <a href="contact.html" class="btn" style="background:var(--white); color:var(--terracotta);">Solicitar itinerario</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">🐪 Itinerario<span>Marruecos</span></div>
+        <p>Agencia local especializada en tours privados y compartidos por Marruecos: desierto, ciudades imperiales y costa atlántica.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="WhatsApp">wa</a>
+        </div>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tours populares</h4>
+        <ul>
+          <li><a href="tours/3-dias-marrakech-merzouga.html">3 días Marrakech–Merzouga</a></li>
+          <li><a href="tours/4-dias-fes-marrakech.html">4 días Fez–Marrakech</a></li>
+          <li><a href="tours/7-dias-gran-tour-marruecos.html">7 días Gran Tour</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li>📍 Marrakech, Marruecos</li>
+          <li>📞 +212 600 000 000</li>
+          <li>✉️ info@itinerariomarruecos.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Itinerario Marruecos. Todos los derechos reservados.</span>
+      <span>Sitio en construcción — contenido de ejemplo</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/212600000000" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="js/tours-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

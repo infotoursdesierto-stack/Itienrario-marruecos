@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | Itinerario Marruecos</title>
+<meta name="description" content="Contacta con Itinerario Marruecos para reservar tu tour por el desierto del Sahara o pedir un itinerario a medida. Respondemos en menos de 24 horas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <span>📞 +212 600 000 000</span>
+      <span>✉️ info@itinerariomarruecos.com</span>
+    </div>
+    <div class="topbar-links"><a href="contact.html">Reserva ahora</a></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">🐪 Itinerario<span>Marruecos</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="tours.html">Tours</a>
+      <a href="about.html">Sobre Nosotros</a>
+      <a href="contact.html" class="active">Contacto</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Reservar</a>
+    <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Inicio</a><span>/</span>Contacto</div>
+    <h1>Hablemos de tu viaje</h1>
+    <p>Cuéntanos tus fechas, cuántos viajáis y qué os gustaría ver. Te preparamos una propuesta sin compromiso.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-card">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Oficina</h4>
+            <p>Av. Mohammed V, Marrakech, Marruecos</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Teléfono / WhatsApp</h4>
+            <p>+212 600 000 000</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@itinerariomarruecos.com</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon">🕐</div>
+          <div>
+            <h4>Horario de atención</h4>
+            <p>Lunes a domingo, 8:00 – 22:00 (hora de Marruecos)</p>
+          </div>
+        </div>
+
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps?q=Marrakech%2C%20Morocco&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de ubicación en Marrakech"></iframe>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>Envíanos un mensaje</h3>
+        <p style="color:var(--muted); margin-top:-6px;">Este formulario es una demo: conéctalo a tu email, WhatsApp o CRM antes de publicar el sitio.</p>
+        <form id="contact-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Nombre completo</label>
+              <input type="text" id="name" required placeholder="Tu nombre">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" required placeholder="tucorreo@ejemplo.com">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="dates">Fechas aproximadas</label>
+              <input type="text" id="dates" placeholder="Ej: 10-15 de octubre">
+            </div>
+            <div class="field">
+              <label for="travelers">Nº de viajeros</label>
+              <input type="number" id="travelers" min="1" placeholder="2">
+            </div>
+          </div>
+          <div class="field">
+            <label for="tour-interest">Tour de interés</label>
+            <select id="tour-interest">
+              <option>3 días Marrakech–Merzouga</option>
+              <option>4 días Fez–Marrakech</option>
+              <option>7 días Gran Tour de Marruecos</option>
+              <option>2 días Desierto Express</option>
+              <option>Itinerario a medida</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" placeholder="Cuéntanos qué te gustaría ver o hacer en tu viaje..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+          <p id="form-status" style="display:none; margin-top:14px; color:#3a8a4a; font-size:0.9rem;"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">🐪 Itinerario<span>Marruecos</span></div>
+        <p>Agencia local especializada en tours privados y compartidos por Marruecos: desierto, ciudades imperiales y costa atlántica.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="WhatsApp">wa</a>
+        </div>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tours populares</h4>
+        <ul>
+          <li><a href="tours/3-dias-marrakech-merzouga.html">3 días Marrakech–Merzouga</a></li>
+          <li><a href="tours/4-dias-fes-marrakech.html">4 días Fez–Marrakech</a></li>
+          <li><a href="tours/7-dias-gran-tour-marruecos.html">7 días Gran Tour</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li>📍 Marrakech, Marruecos</li>
+          <li>📞 +212 600 000 000</li>
+          <li>✉️ info@itinerariomarruecos.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Itinerario Marruecos. Todos los derechos reservados.</span>
+      <span>Sitio en construcción — contenido de ejemplo</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/212600000000" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="js/tours-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

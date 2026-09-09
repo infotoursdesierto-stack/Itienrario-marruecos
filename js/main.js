@@ -23,7 +23,7 @@ function tourCardHTML(tour) {
       <div class="tour-media">
         <img src="${tour.image}" alt="${tour.title}" loading="lazy">
         ${tour.badge ? `<span class="tour-badge">${tour.badge}</span>` : ""}
-        <span class="tour-price-tag">${formatPrice(tour)} <small>/pers.</small></span>
+        <span class="tour-price-tag">Desde ${formatPrice(tour)} <small>/pers.</small></span>
       </div>
       <div class="tour-body">
         <span class="tour-route">${tour.route}</span>
@@ -33,6 +33,7 @@ function tourCardHTML(tour) {
           <span>⭐ ${tour.rating} (${tour.reviews})</span>
         </div>
         <p class="excerpt">${tour.excerpt}</p>
+        <span class="price-note">Precio final según nº de personas</span>
         <div class="tour-footer">
           <a class="btn btn-dark-outline" href="${tour.url}">Ver detalles</a>
         </div>

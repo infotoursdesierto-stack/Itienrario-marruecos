@@ -342,6 +342,8 @@ header.site-header {
 }
 .tour-price-tag small { font-weight: 500; color: var(--muted); }
 
+.price-note { font-size: 0.76rem; color: var(--muted); font-style: italic; }
+
 .tour-body { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .tour-route { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
 .tour-body h3 { font-size: 1.2rem; margin: 0; }

@@ -34,8 +34,11 @@ Todo lo siguiente es **placeholder** y debe sustituirse por información real:
 
 - **Tours y precios**: edita `js/tours-data.js`. Cada objeto del array `TOURS`
   alimenta automáticamente las tarjetas de `index.html` y `tours.html`.
-- **Páginas de detalle**: los 6 tours de ejemplo están en `tours/*.html`. Ajusta
-  el itinerario día a día, precios, fotos y textos de "qué incluye".
+- **Páginas de detalle**: 19 itinerarios reales (Marrakech, Fez, Tánger, Ouarzazate,
+  Errachidia, más el Gran Circuito de 14 días) más una excursión de un día como extra,
+  todos en `tours/*.html`. El texto de cada día se generó automáticamente a partir de
+  las rutas punto a punto — revísalo y dale tu propio estilo antes de publicar,
+  y ajusta precios, valoraciones y fotos.
 - **Fotos**: se usan imágenes de `picsum.photos` como marcador visual. Sustitúyelas
   por fotos reales de tus tours (súbelas a una carpeta `img/` y actualiza los `src`).
 - **Datos de contacto**: teléfono, email, dirección y el enlace de WhatsApp

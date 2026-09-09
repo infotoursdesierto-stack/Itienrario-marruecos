@@ -178,18 +178,43 @@ function applyUrlParamsToFilters() {
   }
 }
 
-/* ---------- Formulario de contacto (demo sin backend) ---------- */
+/* ---------- Formulario de contacto (envía la solicitud por WhatsApp) ---------- */
+const WHATSAPP_NUMBER = "212620628083";
+const CONTACT_EMAIL = "itinerariomarruecos@gmail.com";
+
 function initContactForm() {
   const form = document.getElementById("contact-form");
   if (!form) return;
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    const val = (id) => {
+      const el = document.getElementById(id);
+      return el && el.value ? el.value.trim() : "";
+    };
+    const name = val("name") || val("b-name");
+    const email = val("email") || val("b-email");
+    const dates = val("dates") || val("b-date");
+    const travelers = val("travelers") || val("b-travelers");
+    const tourInterest = val("tour-interest");
+    const message = val("message");
+    const pageTitle = document.title.split("|")[0].trim();
+
+    const lines = [`Hola, soy ${name || "un viajero"} 👋`, `Me interesa: ${tourInterest || pageTitle}`];
+    if (dates) lines.push(`Fechas: ${dates}`);
+    if (travelers) lines.push(`Nº de viajeros: ${travelers}`);
+    if (email) lines.push(`Mi email: ${email}`);
+    if (message) lines.push(`Mensaje: ${message}`);
+    lines.push("¿Podrían enviarme más información y disponibilidad?");
+
+    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`;
+
     const status = document.getElementById("form-status");
     if (status) {
-      status.textContent = "¡Gracias! Tu mensaje quedó registrado en esta demo. Conecta el formulario a tu email o WhatsApp para recibir mensajes reales.";
       status.style.display = "block";
+      status.textContent = `Abriendo WhatsApp con tu solicitud... Si no se abre automáticamente, escríbenos al +212 620 628 083 o a ${CONTACT_EMAIL}.`;
     }
-    form.reset();
+    window.open(waUrl, "_blank", "noopener");
   });
 }
 

@@ -426,7 +426,7 @@ const TOURS = [
     reviews: 19,
     badge: "Costa y desierto",
     excerpt: "Essaouira, el desierto del Sahara, Fez, Meknes, las ruinas de Volubilis y la ciudad azul de Chefchaouen: el recorrido más completo desde Marrakech hasta Tánger.",
-    image: "https://github.com/user-attachments/assets/08ac7531-19b5-4cd7-b019-8ad4e91864e9",
+    image: "https://github.com/user-attachments/assets/26378b6d-7653-45f0-8811-592fe1d34db5",
     category: "Marrakech",
     url: "tours/10-dias-marrakech-tanger-desierto.html",
   },

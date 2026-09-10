@@ -411,7 +411,7 @@ const TOURS = [
     reviews: 63,
     badge: "Circuito completo",
     excerpt: "El Alto Atlas, Ait Benhaddou, dos noches en el Sahara y una jornada guiada en la medina de Fez: el resumen más completo entre Marrakech y Fez.",
-    image: "https://github.com/user-attachments/assets/3f94634e-33ab-4bbc-8c33-45e4ccf59e93",
+    image: "https://github.com/user-attachments/assets/26378b6d-7653-45f0-8811-592fe1d34db5",
     category: "Marrakech",
     url: "tours/6-dias-marrakech-fez-desierto.html",
   },

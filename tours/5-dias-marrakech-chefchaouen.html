@@ -18,7 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css?v=13">
+<link rel="stylesheet" href="../css/style.css?v=14">
 </head>
 <body>
 
@@ -85,6 +85,7 @@
     <a href="#destacados">Destacados</a>
     <a href="#galeria">Galería</a>
     <a href="#itinerario">Itinerario</a>
+    <a href="#alojamiento">Alojamiento</a>
     <a href="#precios">Precios</a>
     <a href="#incluye">Incluye</a>
     <a href="#antes-de-viajar">Antes de viajar</a>
@@ -126,42 +127,68 @@
 
         <h2 class="mt-40" id="itinerario">Itinerario día a día</h2>
         <p style="color:var(--muted); margin-top:-8px;">Nuestro conductor-guía te recoge en tu alojamiento en Marrakech el primer día y te devuelve allí (o al aeropuerto, si lo necesitas) al finalizar el tour.</p>
+        <div class="route-strip"><span class="route-stop">Marrakech</span><span class="route-arrow">→</span><span class="route-stop">Alto Atlas</span><span class="route-arrow">→</span><span class="route-stop">Kasbah de Ait Benhaddou</span><span class="route-arrow">→</span><span class="route-stop">Valle del Dadès</span><span class="route-arrow">→</span><span class="route-stop">Gargantas de Todra</span><span class="route-arrow">→</span><span class="route-stop">Desierto de Merzouga (campamento)</span><span class="route-arrow">→</span><span class="route-stop">Amanecer en las dunas</span><span class="route-arrow">→</span><span class="route-stop">Valle del Ziz</span><span class="route-arrow">→</span><span class="route-stop">Medio Atlas</span><span class="route-arrow">→</span><span class="route-stop">Ifrane</span><span class="route-arrow">→</span><span class="route-stop">Fez</span><span class="route-arrow">→</span><span class="route-stop">Visita guiada a la medina de Fez</span><span class="route-arrow">→</span><span class="route-stop">Chefchaouen</span><span class="route-arrow">→</span><span class="route-stop">Chefchaouen: tiempo libre</span><span class="route-arrow">→</span><span class="route-stop">traslado final a Tánger, Fez o Marrakech</span></div>
+        <p style="color:var(--muted); font-size:0.85rem; margin:-4px 0 20px;">Toca cada día para ver el detalle completo del recorrido.</p>
         
-        <div class="itinerary-day">
-          <div class="day-number">1</div>
+        <details class="itinerary-day" open>
+          <summary>
+            <span class="day-number">1</span>
+            <span class="day-title">Marrakech → Alto Atlas → Kasbah de Ait Benhaddou → Valle del Dadès</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Marrakech → Alto Atlas → Kasbah de Ait Benhaddou → Valle del Dadès</h4>
             <p>Recogida en tu riad, hotel o alojamiento en Marrakech a primera hora de la mañana. Salida de Marrakech cruzando el Alto Atlas por el puerto de Tizi n'Tichka, con parada para visitar la Kasbah de Ait Benhaddou, Patrimonio de la Humanidad. Continuamos hasta el Valle del Dadès, la 'ruta de las mil kasbahs', donde pasamos la noche en un hotel con vistas al valle.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">2</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">2</span>
+            <span class="day-title">Valle del Dadès → Gargantas de Todra → Desierto de Merzouga (campamento)</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Valle del Dadès → Gargantas de Todra → Desierto de Merzouga (campamento)</h4>
             <p>Por la mañana visitamos las espectaculares Gargantas de Todra, con paredes de roca de más de 300 metros. Continuamos hacia Merzouga, donde un paseo en camello nos lleva hasta el campamento en las dunas de Erg Chebbi para disfrutar de la puesta de sol, una cena tradicional bereber, música en vivo alrededor de la fogata y noche bajo un cielo lleno de estrellas (con opción de sandboard en las dunas cercanas).</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">3</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">3</span>
+            <span class="day-title">Amanecer en las dunas → Valle del Ziz → Medio Atlas → Ifrane → Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Amanecer en las dunas → Valle del Ziz → Medio Atlas → Ifrane → Fez</h4>
             <p>Nos levantamos antes del amanecer para ver la salida del sol desde las dunas, seguido de un desayuno bereber en el campamento. Salimos hacia el norte por el Valle del Ziz, cruzando el Medio Atlas hasta Ifrane, la 'Suiza de Marruecos', antes de llegar a Fez, donde pasamos la noche.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">4</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">4</span>
+            <span class="day-title">Visita guiada a la medina de Fez → Chefchaouen</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Visita guiada a la medina de Fez → Chefchaouen</h4>
             <p>Por la mañana, un guía local nos acompaña por la medina de Fez, Patrimonio de la Humanidad y una de las más grandes del mundo árabe, incluyendo las curtidurías y la Universidad de Al-Qarawiyyin. Por la tarde viajamos hacia el norte hasta Chefchaouen, la famosa 'ciudad azul' del Rif, donde pasamos la noche.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">5</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">5</span>
+            <span class="day-title">Chefchaouen: tiempo libre → traslado final a Tánger, Fez o Marrakech</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Chefchaouen: tiempo libre → traslado final a Tánger, Fez o Marrakech</h4>
             <p>Última mañana libre para pasear por las calles azules de Chefchaouen, sus zocos y talleres de artesanía. Según tu vuelo de salida, te trasladamos a Tánger; si lo prefieres, también podemos organizar el regreso a Fez, Casablanca o Marrakech.</p>
           </div>
-        </div>
+        </details>
+
+        <h2 class="mt-40" id="alojamiento">Opciones de alojamiento</h2>
+        <p style="color:var(--muted); margin-top:-8px;">El precio incluye la categoría estándar; si prefieres otra, dínoslo al reservar y ajustamos la cotización.</p>
+        <div class="price-table-wrap">
+        <table class="price-table">
+          <thead><tr><th>Categoría</th><th>Riads y hoteles</th><th>Campamento en el desierto</th></tr></thead>
+          <tbody><tr><td>Económica</td><td>Hoteles y riads sencillos (3★), buena ubicación, con desayuno</td><td>Jaima estándar, baño compartido cercano</td></tr><tr><td>Estándar (incluida)</td><td>Riads con encanto (3–4★), en el centro histórico</td><td>Jaima de lujo, baño compartido cercano</td></tr><tr><td>Superior</td><td>Riads boutique y hoteles de categoría (4–5★)</td><td>Jaima de lujo con baño privado</td></tr></tbody>
+        </table>
+      </div>
 
         <h2 class="mt-40" id="precios">Precios según grupo y temporada</h2>
         <div class="price-table-wrap">
@@ -336,8 +363,8 @@
 
 <a class="whatsapp-float" href="https://wa.me/212620628083" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script src="../js/tours-data.js?v=13"></script>
-<script src="../js/main.js?v=13"></script>
+<script src="../js/tours-data.js?v=14"></script>
+<script src="../js/main.js?v=14"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const others = TOURS.filter(t => t.slug !== "5-dias-marrakech-chefchaouen").slice(0, 3);

@@ -586,24 +586,55 @@ footer.site-footer {
 .quick-facts div strong { display: block; font-family: var(--font-head); font-size: 1.15rem; }
 .quick-facts div span { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; }
 
-.itinerary-day {
+.route-strip {
   display: flex;
-  gap: 20px;
-  padding: 24px 0;
-  border-bottom: 1px solid #eadfc9;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 12px;
+  padding: 14px 16px;
+  background: var(--sand-light);
+  border-radius: var(--radius);
+  border: 1px solid #eadfc9;
 }
-.itinerary-day:last-child { border-bottom: none; }
-.day-number {
+.route-strip .route-stop {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--teal);
+  white-space: nowrap;
+}
+.route-strip .route-arrow { color: var(--terracotta); font-weight: 700; }
+
+.itinerary-day {
+  border: 1px solid #eadfc9;
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.itinerary-day summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--sand-light);
+}
+.itinerary-day summary::-webkit-details-marker { display: none; }
+.itinerary-day .day-number {
   flex: none;
-  width: 56px; height: 56px;
+  width: 40px; height: 40px;
   border-radius: 50%;
   background: var(--terracotta);
   color: var(--white);
   display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-family: var(--font-head);
+  font-weight: 700; font-family: var(--font-head); font-size: 0.95rem;
 }
-.day-content h4 { margin-bottom: 6px; }
-.day-content p { color: var(--muted); margin: 0; }
+.itinerary-day .day-title { flex: 1; font-weight: 600; font-family: var(--font-head); }
+.itinerary-day .day-caret { color: var(--terracotta); font-size: 1.1rem; transition: transform 0.2s; flex: none; }
+.itinerary-day[open] .day-caret { transform: rotate(180deg); }
+.itinerary-day .day-content { padding: 18px 20px; }
+.itinerary-day .day-content p { color: var(--muted); margin: 0; }
 
 .include-grid {
   display: grid;

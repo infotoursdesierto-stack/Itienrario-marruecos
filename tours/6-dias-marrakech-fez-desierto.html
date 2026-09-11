@@ -18,7 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css?v=13">
+<link rel="stylesheet" href="../css/style.css?v=14">
 </head>
 <body>
 
@@ -87,6 +87,7 @@
     <a href="#destacados">Destacados</a>
     <a href="#galeria">Galería</a>
     <a href="#itinerario">Itinerario</a>
+    <a href="#alojamiento">Alojamiento</a>
     <a href="#precios">Precios</a>
     <a href="#incluye">Incluye</a>
     <a href="#antes-de-viajar">Antes de viajar</a>
@@ -129,49 +130,78 @@
 
         <h2 class="mt-40" id="itinerario">Itinerario de 6 días desde Marrakech a Fez, día a día</h2>
         <p style="color:var(--muted); margin-top:-8px;">Nuestro conductor-guía te recoge en tu alojamiento en Marrakech el primer día y te devuelve allí (o al aeropuerto, si lo necesitas) al finalizar el tour.</p>
+        <div class="route-strip"><span class="route-stop">Marrakech</span><span class="route-arrow">→</span><span class="route-stop">Alto Atlas</span><span class="route-arrow">→</span><span class="route-stop">Kasbah de Ait Benhaddou</span><span class="route-arrow">→</span><span class="route-stop">Valle de las Rosas</span><span class="route-arrow">→</span><span class="route-stop">Valle del Dadès</span><span class="route-arrow">→</span><span class="route-stop">Gargantas de Todra</span><span class="route-arrow">→</span><span class="route-stop">Dunas de Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Paseo en camello</span><span class="route-arrow">→</span><span class="route-stop">Noche en campamento de lujo</span><span class="route-arrow">→</span><span class="route-stop">Merzouga: amanecer en las dunas, nómadas, Khamlia y lago estacional</span><span class="route-arrow">→</span><span class="route-stop">Dunas de Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Erfoud</span><span class="route-arrow">→</span><span class="route-stop">Midelt</span><span class="route-arrow">→</span><span class="route-stop">Bosque de cedros</span><span class="route-arrow">→</span><span class="route-stop">Ifrane</span><span class="route-arrow">→</span><span class="route-stop">Fez</span><span class="route-arrow">→</span><span class="route-stop">Visita guiada por Fez</span><span class="route-arrow">→</span><span class="route-stop">Traslado al aeropuerto de Fez</span></div>
+        <p style="color:var(--muted); font-size:0.85rem; margin:-4px 0 20px;">Toca cada día para ver el detalle completo del recorrido.</p>
         
-        <div class="itinerary-day">
-          <div class="day-number">1</div>
+        <details class="itinerary-day" open>
+          <summary>
+            <span class="day-number">1</span>
+            <span class="day-title">Marrakech → Alto Atlas → Kasbah de Ait Benhaddou → Valle de las Rosas → Valle del Dadès</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Marrakech → Alto Atlas → Kasbah de Ait Benhaddou → Valle de las Rosas → Valle del Dadès</h4>
             <p>Recogida en tu riad, hotel o alojamiento en Marrakech a primera hora de la mañana. Cruzamos el Alto Atlas por el histórico puerto de Tizi n'Tichka, con paradas para disfrutar de las vistas panorámicas de las montañas. Visitamos la Kasbah de Ait Benhaddou, aldea fortificada declarada Patrimonio de la Humanidad por la UNESCO y escenario de películas como Gladiator y series como Juego de Tronos. Continuamos hacia Ouarzazate, conocida como 'la puerta del desierto', con tiempo libre para almorzar, y seguimos por el gran palmeral de Skoura hasta el Valle de las Rosas. Terminamos la jornada en el Valle del Dadès, donde pasamos la noche.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">2</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">2</span>
+            <span class="day-title">Valle del Dadès → Gargantas de Todra → Dunas de Merzouga → Paseo en camello → Noche en campamento de lujo</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Valle del Dadès → Gargantas de Todra → Dunas de Merzouga → Paseo en camello → Noche en campamento de lujo</h4>
             <p>Tras el desayuno, atravesamos el Valle del Dadès con parada en un mirador sobre sus espectaculares gargantas. Seguimos hacia las Gargantas de Todra, un cañón de paredes rojizas excavado por el río Todra, con tiempo libre para pasear y disfrutar del paisaje. Cruzamos los palmerales de Touroug y Tinjdad, con parada libre para almorzar, y al caer la tarde llegamos al desierto del Sahara en Merzouga. Cambiamos el vehículo por camellos para cruzar las dunas y contemplar una puesta de sol inolvidable desde lo alto de Erg Chebbi. Ya en el campamento de lujo, disfrutamos de música bereber en vivo alrededor de la hoguera, cena tradicional y noche bajo un cielo repleto de estrellas.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">3</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">3</span>
+            <span class="day-title">Merzouga: amanecer en las dunas, nómadas, Khamlia y lago estacional</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Merzouga: amanecer en las dunas, nómadas, Khamlia y lago estacional</h4>
             <p>Madrugamos para ver el amanecer desde lo alto de las dunas -una experiencia imprescindible- antes de desayunar en el campamento. Regresamos a Merzouga en camello o en 4x4, y dedicamos el día a explorar la región: antiguas minas de kohl, una jaima nómada donde compartimos un té bereber, y el pueblo de Khamlia, famoso por la música gnawa de sus habitantes de origen subsahariano. Tras el almuerzo, paseamos por un palmeral y visitamos el lago estacional de Merzouga, también llamado 'lago de los flamencos'. Noche en hotel.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">4</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">4</span>
+            <span class="day-title">Dunas de Merzouga → Erfoud → Midelt → Bosque de cedros → Ifrane → Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Dunas de Merzouga → Erfoud → Midelt → Bosque de cedros → Ifrane → Fez</h4>
             <p>Salimos del desierto hacia Rissani, antigua capital de Tafilalet y aún hoy un importante centro comercial con zoco los martes, jueves y domingos. Continuamos hasta Erfoud, la 'ciudad del fósil', donde visitamos un taller de mármol fosilizado. Seguimos el curso del río Ziz con parada panorámica sobre el valle, y almorzamos por libre en Midelt. Cruzamos después el bosque de cedros del Atlas Medio, hogar de los monos de Berbería, y visitamos Ifrane, conocida como la 'Suiza de Marruecos' por su arquitectura alpina y su clima fresco. Llegada a Fez y tarde libre para pasear por la medina.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">5</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">5</span>
+            <span class="day-title">Visita guiada por Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Visita guiada por Fez</h4>
             <p>Recogida en tu alojamiento para descubrir Fez, corazón cultural y espiritual de Marruecos. Comenzamos con un recorrido en vehículo por la puerta del Palacio Real, el barrio judío (la Mellah) y el mirador de Borj Sud, con vistas panorámicas sobre la medina, además del pueblo de la cerámica. Después, ya a pie y con un guía local, nos adentramos en la medina medieval, Patrimonio de la Humanidad y uno de los cascos históricos mejor conservados del mundo árabe: la madrasa Al-Attarine, la Universidad y Mezquita de Al-Qarawiyyin -considerada la más antigua del mundo- y las curtidurías de Chouara, donde el cuero se sigue tiñendo con técnicas centenarias. Regreso al alojamiento para descansar.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">6</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">6</span>
+            <span class="day-title">Traslado al aeropuerto de Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Traslado al aeropuerto de Fez</h4>
             <p>Según la hora de tu vuelo, te recogemos en tu alojamiento y te trasladamos al aeropuerto de Fez, poniendo fin a tu tour por el desierto de Marruecos.</p>
           </div>
-        </div>
+        </details>
+
+        <h2 class="mt-40" id="alojamiento">Opciones de alojamiento</h2>
+        <p style="color:var(--muted); margin-top:-8px;">El precio incluye la categoría estándar; si prefieres otra, dínoslo al reservar y ajustamos la cotización.</p>
+        <div class="price-table-wrap">
+        <table class="price-table">
+          <thead><tr><th>Categoría</th><th>Riads y hoteles</th><th>Campamento en el desierto</th></tr></thead>
+          <tbody><tr><td>Económica</td><td>Hoteles y riads sencillos (3★), buena ubicación, con desayuno</td><td>Jaima estándar, baño compartido cercano</td></tr><tr><td>Estándar (incluida)</td><td>Riads con encanto (3–4★), en el centro histórico</td><td>Jaima de lujo, baño compartido cercano</td></tr><tr><td>Superior</td><td>Riads boutique y hoteles de categoría (4–5★)</td><td>Jaima de lujo con baño privado</td></tr></tbody>
+        </table>
+      </div>
 
         <h2 class="mt-40" id="precios">Precios según grupo y temporada</h2>
         <div class="price-table-wrap">
@@ -346,8 +376,8 @@
 
 <a class="whatsapp-float" href="https://wa.me/212620628083" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script src="../js/tours-data.js?v=13"></script>
-<script src="../js/main.js?v=13"></script>
+<script src="../js/tours-data.js?v=14"></script>
+<script src="../js/main.js?v=14"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const others = TOURS.filter(t => t.slug !== "6-dias-marrakech-fez-desierto").slice(0, 3);

@@ -18,7 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css?v=13">
+<link rel="stylesheet" href="../css/style.css?v=14">
 </head>
 <body>
 
@@ -87,6 +87,7 @@
     <a href="#destacados">Destacados</a>
     <a href="#galeria">Galería</a>
     <a href="#itinerario">Itinerario</a>
+    <a href="#alojamiento">Alojamiento</a>
     <a href="#precios">Precios</a>
     <a href="#incluye">Incluye</a>
     <a href="#antes-de-viajar">Antes de viajar</a>
@@ -128,56 +129,88 @@
 
         <h2 class="mt-40" id="itinerario">Itinerario día a día</h2>
         <p style="color:var(--muted); margin-top:-8px;">Nuestro conductor-guía te recoge en tu alojamiento en Casablanca/Tánger el primer día y te devuelve allí (o al aeropuerto, si lo necesitas) al finalizar el tour.</p>
+        <div class="route-strip"><span class="route-stop">Casablanca o Tánger</span><span class="route-arrow">→</span><span class="route-stop">Chefchaouen</span><span class="route-arrow">→</span><span class="route-stop">Ruinas romanas de Volubilis</span><span class="route-arrow">→</span><span class="route-stop">Fez</span><span class="route-arrow">→</span><span class="route-stop">Ifrane</span><span class="route-arrow">→</span><span class="route-stop">Midelt</span><span class="route-arrow">→</span><span class="route-stop">Desierto de Merzouga (Erg Chebbi)</span><span class="route-arrow">→</span><span class="route-stop">Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Gargantas de Todra</span><span class="route-arrow">→</span><span class="route-stop">Valle del Dadès</span><span class="route-arrow">→</span><span class="route-stop">Ouarzazate</span><span class="route-arrow">→</span><span class="route-stop">Kasbah de Ait Benhaddou</span><span class="route-arrow">→</span><span class="route-stop">Marrakech</span></div>
+        <p style="color:var(--muted); font-size:0.85rem; margin:-4px 0 20px;">Toca cada día para ver el detalle completo del recorrido.</p>
         
-        <div class="itinerary-day">
-          <div class="day-number">1</div>
+        <details class="itinerary-day" open>
+          <summary>
+            <span class="day-number">1</span>
+            <span class="day-title">Casablanca o Tánger → Chefchaouen</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Casablanca o Tánger → Chefchaouen</h4>
             <p>Recogida en tu riad, hotel o alojamiento en Casablanca/Tánger a primera hora de la mañana. Recorrido de Casablanca o Tánger a Chefchaouen.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">2</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">2</span>
+            <span class="day-title">Chefchaouen → Ruinas romanas de Volubilis → Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Chefchaouen → Ruinas romanas de Volubilis → Fez</h4>
             <p>Recorrido desde Chefchaouen hasta Fez, pasando por Ruinas romanas de Volubilis.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">3</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">3</span>
+            <span class="day-title">Fez</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Fez</h4>
             <p>Día dedicado a descubrir Fez. Recorrido guiado por la medina y sus principales monumentos.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">4</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">4</span>
+            <span class="day-title">Fez → Ifrane → Midelt → Desierto de Merzouga (Erg Chebbi)</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Fez → Ifrane → Midelt → Desierto de Merzouga (Erg Chebbi)</h4>
             <p>Recorrido desde Fez hasta Desierto de Merzouga (Erg Chebbi), pasando por Ifrane, Midelt. Por la noche, paseo en camello y campamento bereber en pleno desierto, con cena tradicional y música en vivo.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">5</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">5</span>
+            <span class="day-title">Merzouga → Gargantas de Todra → Valle del Dadès</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Merzouga → Gargantas de Todra → Valle del Dadès</h4>
             <p>Recorrido desde Merzouga hasta Valle del Dadès, pasando por Gargantas de Todra.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">6</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">6</span>
+            <span class="day-title">Valle del Dadès → Ouarzazate → Kasbah de Ait Benhaddou → Marrakech</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Valle del Dadès → Ouarzazate → Kasbah de Ait Benhaddou → Marrakech</h4>
             <p>Recorrido desde Valle del Dadès hasta Marrakech, pasando por Ouarzazate, Kasbah de Ait Benhaddou.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">7</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">7</span>
+            <span class="day-title">Marrakech</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Marrakech</h4>
             <p>Día dedicado a descubrir Marrakech. Recorrido guiado por la medina y sus principales monumentos. El tour finaliza con el traslado al aeropuerto.</p>
           </div>
-        </div>
+        </details>
+
+        <h2 class="mt-40" id="alojamiento">Opciones de alojamiento</h2>
+        <p style="color:var(--muted); margin-top:-8px;">El precio incluye la categoría estándar; si prefieres otra, dínoslo al reservar y ajustamos la cotización.</p>
+        <div class="price-table-wrap">
+        <table class="price-table">
+          <thead><tr><th>Categoría</th><th>Riads y hoteles</th><th>Campamento en el desierto</th></tr></thead>
+          <tbody><tr><td>Económica</td><td>Hoteles y riads sencillos (3★), buena ubicación, con desayuno</td><td>Jaima estándar, baño compartido cercano</td></tr><tr><td>Estándar (incluida)</td><td>Riads con encanto (3–4★), en el centro histórico</td><td>Jaima de lujo, baño compartido cercano</td></tr><tr><td>Superior</td><td>Riads boutique y hoteles de categoría (4–5★)</td><td>Jaima de lujo con baño privado</td></tr></tbody>
+        </table>
+      </div>
 
         <h2 class="mt-40" id="precios">Precios según grupo y temporada</h2>
         <div class="price-table-wrap">
@@ -352,8 +385,8 @@
 
 <a class="whatsapp-float" href="https://wa.me/212620628083" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script src="../js/tours-data.js?v=13"></script>
-<script src="../js/main.js?v=13"></script>
+<script src="../js/tours-data.js?v=14"></script>
+<script src="../js/main.js?v=14"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const others = TOURS.filter(t => t.slug !== "7-dias-gran-tour-marruecos").slice(0, 3);

@@ -18,7 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐪%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css?v=13">
+<link rel="stylesheet" href="../css/style.css?v=14">
 </head>
 <body>
 
@@ -87,6 +87,7 @@
     <a href="#destacados">Destacados</a>
     <a href="#galeria">Galería</a>
     <a href="#itinerario">Itinerario</a>
+    <a href="#alojamiento">Alojamiento</a>
     <a href="#precios">Precios</a>
     <a href="#incluye">Incluye</a>
     <a href="#antes-de-viajar">Antes de viajar</a>
@@ -128,42 +129,68 @@
 
         <h2 class="mt-40" id="itinerario">Itinerario día a día</h2>
         <p style="color:var(--muted); margin-top:-8px;">Nuestro conductor-guía te recoge en tu alojamiento en Errachidia el primer día y te devuelve allí (o al aeropuerto, si lo necesitas) al finalizar el tour.</p>
+        <div class="route-strip"><span class="route-stop">Aeropuerto de Errachidia</span><span class="route-arrow">→</span><span class="route-stop">Palmeral del Ziz</span><span class="route-arrow">→</span><span class="route-stop">Erfoud / Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Exploración en 4x4</span><span class="route-arrow">→</span><span class="route-stop">Khamlia</span><span class="route-arrow">→</span><span class="route-stop">Minas de M'Fis</span><span class="route-arrow">→</span><span class="route-stop">Campamento de lujo</span><span class="route-arrow">→</span><span class="route-stop">Merzouga</span><span class="route-arrow">→</span><span class="route-stop">Rissani</span><span class="route-arrow">→</span><span class="route-stop">Gargantas del Todra</span><span class="route-arrow">→</span><span class="route-stop">Valle del Dadès</span><span class="route-arrow">→</span><span class="route-stop">Valle de las Rosas</span><span class="route-arrow">→</span><span class="route-stop">Ouarzazate</span><span class="route-arrow">→</span><span class="route-stop">Kasbah de Ait Benhaddou</span><span class="route-arrow">→</span><span class="route-stop">Ouarzazate</span><span class="route-arrow">→</span><span class="route-stop">Puerto de Tizi n'Tichka</span><span class="route-arrow">→</span><span class="route-stop">Marrakech</span></div>
+        <p style="color:var(--muted); font-size:0.85rem; margin:-4px 0 20px;">Toca cada día para ver el detalle completo del recorrido.</p>
         
-        <div class="itinerary-day">
-          <div class="day-number">1</div>
+        <details class="itinerary-day" open>
+          <summary>
+            <span class="day-number">1</span>
+            <span class="day-title">Aeropuerto de Errachidia → Palmeral del Ziz → Erfoud / Merzouga</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Aeropuerto de Errachidia → Palmeral del Ziz → Erfoud / Merzouga</h4>
             <p>Recogida en tu riad, hotel o alojamiento en Errachidia a primera hora de la mañana. Recogida en el aeropuerto de Errachidia y traslado por el palmeral del Valle del Ziz. Noche en hotel en Erfoud o Merzouga, a las puertas del desierto.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">2</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">2</span>
+            <span class="day-title">Merzouga → Exploración en 4x4 → Khamlia → Minas de M'Fis → Campamento de lujo</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Merzouga → Exploración en 4x4 → Khamlia → Minas de M'Fis → Campamento de lujo</h4>
             <p>Día completo explorando el desierto en 4x4, con parada en Khamlia y en las minas de M'Fis. Noche en un campamento de lujo en las dunas de Erg Chebbi.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">3</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">3</span>
+            <span class="day-title">Merzouga → Rissani → Gargantas del Todra → Valle del Dadès</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Merzouga → Rissani → Gargantas del Todra → Valle del Dadès</h4>
             <p>Visita al mercado de Rissani y paso por las gargantas del Todra camino al Valle del Dadès, donde pernoctamos.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">4</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">4</span>
+            <span class="day-title">Valle del Dadès → Valle de las Rosas → Ouarzazate → Kasbah de Ait Benhaddou</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Valle del Dadès → Valle de las Rosas → Ouarzazate → Kasbah de Ait Benhaddou</h4>
             <p>Ruta por el Valle de las Rosas hasta Ouarzazate y la kasbah de Ait Benhaddou, Patrimonio de la Humanidad. Noche en Ouarzazate o en la propia kasbah.</p>
           </div>
-        </div>
-        <div class="itinerary-day">
-          <div class="day-number">5</div>
+        </details>
+        <details class="itinerary-day">
+          <summary>
+            <span class="day-number">5</span>
+            <span class="day-title">Ouarzazate → Puerto de Tizi n'Tichka → Marrakech</span>
+            <span class="day-caret">▾</span>
+          </summary>
           <div class="day-content">
-            <h4>Ouarzazate → Puerto de Tizi n'Tichka → Marrakech</h4>
             <p>Cruce del Alto Atlas por el puerto de Tizi n'Tichka, con paradas panorámicas, hasta la llegada final a Marrakech (también podemos organizar el regreso a Errachidia o Fez). Al finalizar el recorrido del día, te acompañamos de vuelta a tu alojamiento.</p>
           </div>
-        </div>
+        </details>
+
+        <h2 class="mt-40" id="alojamiento">Opciones de alojamiento</h2>
+        <p style="color:var(--muted); margin-top:-8px;">El precio incluye la categoría estándar; si prefieres otra, dínoslo al reservar y ajustamos la cotización.</p>
+        <div class="price-table-wrap">
+        <table class="price-table">
+          <thead><tr><th>Categoría</th><th>Riads y hoteles</th><th>Campamento en el desierto</th></tr></thead>
+          <tbody><tr><td>Económica</td><td>Hoteles y riads sencillos (3★), buena ubicación, con desayuno</td><td>Jaima estándar, baño compartido cercano</td></tr><tr><td>Estándar (incluida)</td><td>Riads con encanto (3–4★), en el centro histórico</td><td>Jaima de lujo, baño compartido cercano</td></tr><tr><td>Superior</td><td>Riads boutique y hoteles de categoría (4–5★)</td><td>Jaima de lujo con baño privado</td></tr></tbody>
+        </table>
+      </div>
 
         <h2 class="mt-40" id="precios">Precios según grupo y temporada</h2>
         <div class="price-table-wrap">
@@ -338,8 +365,8 @@
 
 <a class="whatsapp-float" href="https://wa.me/212620628083" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script src="../js/tours-data.js?v=13"></script>
-<script src="../js/main.js?v=13"></script>
+<script src="../js/tours-data.js?v=14"></script>
+<script src="../js/main.js?v=14"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const others = TOURS.filter(t => t.slug !== "5-dias-errachidia-circuito-sur").slice(0, 3);
